@@ -1,5 +1,5 @@
 $(document).ready(function() {
-    $('.vanish').click(function() {
-        $('.vanish').click('button')fadeOut('slow');
+    $('.popupBasic').click(function() {
+        $('.popupBasic').click('button')fadeIn('slow');
     });
 });
