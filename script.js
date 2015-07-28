@@ -41,7 +41,7 @@ function getSelected() {
     return false;
 }
 
-$(body).mouseup(function() {
+$(document).mouseup(function() {
     var selection = getSelected();
 
     if (selection) {
