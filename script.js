@@ -25,7 +25,7 @@
 
 
 
-function getSelected() {
+function getSelected() { 
     if (window.getSelection) {
         return window.getSelection();
     }
